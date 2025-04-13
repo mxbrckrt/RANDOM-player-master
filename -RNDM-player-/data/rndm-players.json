@@ -1,0 +1,113 @@
+{
+	"pattrstorage" : 	{
+		"name" : "rndm-players.json",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"-arpegiator-::chords-distance" : [ 79.999999999999972 ],
+					"-arpegiator-::chords-loop" : [ 0.0 ],
+					"-arpegiator-::stop-duration" : [ 249.999999999999943 ],
+					"-polybuffer-::gliss-mode" : [ 1.0 ],
+					"-polybuffer-::gain-min" : [ 0.2 ],
+					"-polybuffer-::gain-max" : [ 0.8 ],
+					"-polybuffer-::env-atk-speed" : [ 0.0 ],
+					"-polybuffer-::env-dcy-speed" : [ 30.0 ],
+					"-polybuffer-::spat-speed" : [ 2000.0 ],
+					"1-plugins-::1-crossfade" : [ 100.0 ],
+					"2-plugins-::2-crossfade" : [ 100.0 ],
+					"-speedstretch-::pitch-min" : [ 0.1 ],
+					"-speedstretch-::pitch-max" : [ 0.999999999999999 ],
+					"-speedstretch-::pitch-duration" : [ 0.0 ],
+					"-speedstretch-::pitch-env" : [ 0.976905107498169, 0.100000001490116, 1.0, 0.0, 0.099999995529651, 0, 0.0, 0.976905083991923, 1.000000044703485, 0, 0.35, "curve" ],
+					"-speedstretch-::stretch-on" : [ 0.0 ],
+					"-speedstretch-::stretch-pitch" : [ 1.0 ],
+					"-speedstretch-::pitch-proba" : [ 100.0 ],
+					"-speedstretch-::pitch-stable" : [ 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"-arpegiator-::chords-distance" : [ 800.0 ],
+					"-arpegiator-::chords-loop" : [ 0.0 ],
+					"-arpegiator-::stop-duration" : [  ],
+					"-polybuffer-::gliss-mode" : [ 1.0 ],
+					"-polybuffer-::gain-min" : [ 0.2 ],
+					"-polybuffer-::gain-max" : [ 0.8 ],
+					"-polybuffer-::env-atk-speed" : [ 0.0 ],
+					"-polybuffer-::env-dcy-speed" : [ 0.0 ],
+					"-polybuffer-::spat-speed" : [ 0.0 ],
+					"1-plugins-::1-crossfade" : [ 20.0 ],
+					"2-plugins-::2-crossfade" : [ 0.0 ],
+					"-speedstretch-::pitch-min" : [ 0.25 ],
+					"-speedstretch-::pitch-max" : [ 1.0 ],
+					"-speedstretch-::pitch-duration" : [ 0.0 ],
+					"-speedstretch-::pitch-env" : [ 150.0, 0.25, 1.0, 0.0, 0.999999527515268, 0, 0.0, 52.083330225061573, 0.413042734077111, 0, -0.362204724409448, 149.99999104817735, 0.404890556390469, 0, 0.0, "curve" ],
+					"-speedstretch-::stretch-on" : [ 0.0 ],
+					"-speedstretch-::stretch-pitch" : [ 1.0 ],
+					"-speedstretch-::pitch-proba" : [ 100.0 ],
+					"-speedstretch-::pitch-stable" : [ 1.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"-arpegiator-::chords-distance" : [ 80.0 ],
+					"-arpegiator-::chords-loop" : [ 0.0 ],
+					"-arpegiator-::stop-duration" : [  ],
+					"-polybuffer-::gliss-mode" : [ 2.0 ],
+					"-polybuffer-::gain-min" : [ 0.2 ],
+					"-polybuffer-::gain-max" : [ 0.8 ],
+					"-polybuffer-::env-atk-speed" : [ 0.0 ],
+					"-polybuffer-::env-dcy-speed" : [ 0.0 ],
+					"-polybuffer-::spat-speed" : [ 0.0 ],
+					"1-plugins-::1-crossfade" : [ 0.0 ],
+					"2-plugins-::2-crossfade" : [ 0.0 ],
+					"-speedstretch-::pitch-min" : [ 0.1 ],
+					"-speedstretch-::pitch-max" : [ 1.0 ],
+					"-speedstretch-::pitch-duration" : [ 4000.0 ],
+					"-speedstretch-::pitch-env" : [ 4000.0, 0.100000001490116, 1.0, 0.0, 0.1, 0, 0.0, 4000.0, 1.0, 0, 0.35, "curve" ],
+					"-speedstretch-::stretch-on" : [ 0.0 ],
+					"-speedstretch-::stretch-pitch" : [ 1.0 ],
+					"-speedstretch-::pitch-proba" : [ 100.0 ],
+					"-speedstretch-::pitch-stable" : [ 1.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"-arpegiator-::chords-distance" : [ 80.0 ],
+					"-arpegiator-::chords-loop" : [ 0.0 ],
+					"-arpegiator-::stop-duration" : [  ],
+					"-polybuffer-::gliss-mode" : [ 1.0 ],
+					"-polybuffer-::gain-min" : [ 0.2 ],
+					"-polybuffer-::gain-max" : [ 0.8 ],
+					"-polybuffer-::env-atk-speed" : [ 0.0 ],
+					"-polybuffer-::env-dcy-speed" : [ 0.0 ],
+					"-polybuffer-::spat-speed" : [ 0.0 ],
+					"1-plugins-::1-crossfade" : [ 0.0 ],
+					"2-plugins-::2-crossfade" : [ 0.0 ],
+					"-speedstretch-::pitch-min" : [ 0.1 ],
+					"-speedstretch-::pitch-max" : [ 1.0 ],
+					"-speedstretch-::pitch-duration" : [ 0.0 ],
+					"-speedstretch-::pitch-env" : [ 4000.0, 0.100000001490116, 1.0, 0.0, 0.1, 0, 0.0, 4000.0, 1.0, 0, 0.35, "curve" ],
+					"-speedstretch-::stretch-on" : [ 0.0 ],
+					"-speedstretch-::stretch-pitch" : [ 1.0 ],
+					"-speedstretch-::pitch-proba" : [ 100.0 ],
+					"-speedstretch-::pitch-stable" : [ 1.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
