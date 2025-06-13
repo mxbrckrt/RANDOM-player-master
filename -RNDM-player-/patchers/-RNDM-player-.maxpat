@@ -2,44 +2,36 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
-			"revision" : 5,
+			"major" : 9,
+			"minor" : 0,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 321.0, 72.0, 690.0, 511.0 ],
-		"bglocked" : 0,
+		"rect" : [ 307.0, 72.0, 1250.0, 959.0 ],
 		"openinpresentation" : 1,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
 		"lefttoolbarpinned" : 2,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 2,
 		"toolbars_unpinned_last_save" : 15,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
 		"tags" : "sample player",
 		"style" : "maxb_default_style",
 		"subpatcher_template" : "maxb-default-template",
-		"assistshowspatchername" : 0,
 		"title" : "-RNDM-player",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 232.67974591255188, 781.5, 81.0, 22.0 ],
+					"text" : "mc.dac~ 9 10"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"color" : [ 0.501960784313725, 0.545098039215686, 0.0, 1.0 ],
 					"id" : "obj-36",
@@ -165,42 +157,22 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
-							"revision" : 5,
+							"major" : 9,
+							"minor" : 0,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
 						"rect" : [ 59.0, 119.0, 301.0, 416.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
 						"lefttoolbarpinned" : 2,
 						"toptoolbarpinned" : 2,
 						"righttoolbarpinned" : 2,
 						"bottomtoolbarpinned" : 2,
 						"toolbars_unpinned_last_save" : 15,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
 						"subpatcher_template" : "maxb-default-template",
-						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-11",
@@ -425,13 +397,9 @@
 ,
 					"patching_rect" : [ 202.0, 141.0, 108.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
 						"editing_bgcolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 1.0 ],
-						"globalpatchername" : "",
 						"locked_bgcolor" : [ 0.274509803921569, 0.274509803921569, 0.274509803921569, 1.0 ],
-						"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-						"tags" : ""
+						"patchlinecolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 					}
 ,
 					"text" : "p wndw-messages"
@@ -683,8 +651,7 @@
 					"id" : "obj-59",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 924.0, 502.0, 399.0, 22.0 ],
 					"text" : "mcs.poly~ polyplayer-MONO 32 @args my-sfiles @parallel 1 @voices 32"
 				}
@@ -832,6 +799,7 @@
 , 			{
 				"box" : 				{
 					"arrows" : 1,
+					"hidden" : 1,
 					"id" : "obj-21",
 					"justification" : 4,
 					"linecolor" : [ 0.129411764705882, 1.0, 0.0, 1.0 ],
@@ -959,7 +927,6 @@
 , 			{
 				"box" : 				{
 					"arrows" : 1,
-					"hidden" : 1,
 					"id" : "obj-11",
 					"justification" : 4,
 					"linecolor" : [ 0.129411764705882, 1.0, 0.0, 1.0 ],
@@ -1457,7 +1424,7 @@
 					"patching_rect" : [ 532.0, 888.0, 96.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 367.0, 479.0, 142.0, 21.0 ],
-					"text" : "00:00:00.000",
+					"text" : "00:01:21.600",
 					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"textjustification" : 1
 				}
@@ -2272,10 +2239,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 26.0, 263.0, 180.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 4, 45, 358, 173 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 87, 1034, 215 ]
+						"storage_rect" : [ 242, 554, 693, 682 ]
 					}
 ,
 					"text" : "pattrstorage rndm-players.json @autorestore 1 @savemode 3",
@@ -3024,7 +2991,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3032,7 +2999,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
-					"order" : 4,
+					"disabled" : 1,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3050,7 +3017,15 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"midpoints" : [ 156.5, 681.922034063238016, 185.0, 681.922034063238016 ],
-					"order" : 2,
+					"order" : 3,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"order" : 1,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3058,7 +3033,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
-					"order" : 3,
+					"disabled" : 1,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3185,7 +3160,7 @@
 			"obj-129::obj-5" : [ "live.button[1]", "live.button", 0 ],
 			"obj-129::obj-6" : [ "live.numbox[20]", "live.numbox", 0 ],
 			"obj-131" : [ "live.text[57]", "live.text", 0 ],
-			"obj-139::obj-199" : [ "mcs.vst~[1]", "mcs.vst~[1]", 0 ],
+			"obj-139::obj-199" : [ "mcs.vst~[3]", "mcs.vst~[3]", 0 ],
 			"obj-139::obj-30" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-139::obj-7" : [ "live.numbox", "mix", 0 ],
 			"obj-140::obj-199" : [ "vst~", "vst~", 0 ],
@@ -3271,126 +3246,126 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "-arpegiator-.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "-plugins-.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "-polybuffer-.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "-speedstretch-.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_poisson-MaxB.gendsp",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/code",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/code",
 				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-countbang.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-debug.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-lineformat.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-lramp.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-mccross.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-mcvol.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-meg.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-msramp.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-panmc.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-probabang.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-urn.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polyplayer-MONO.maxpat",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/patchers",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rndm-players.json",
-				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/-new-freak-/modules/-RNDM-player-/data",
+				"bootpath" : "~/Documents/__Taaaf/1-MaxMspPatches/Residences/RANDOM-player-master/-RNDM-player-/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
