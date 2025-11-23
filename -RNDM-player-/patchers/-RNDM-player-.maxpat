@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 321.0, 125.0, 693.0, 514.0 ],
+		"rect" : [ 354.0, 96.0, 717.0, 521.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"lefttoolbarpinned" : 2,
@@ -904,7 +904,6 @@
 , 			{
 				"box" : 				{
 					"arrows" : 1,
-					"hidden" : 1,
 					"id" : "obj-11",
 					"justification" : 4,
 					"linecolor" : [ 0.129411764705882, 1.0, 0.0, 1.0 ],
@@ -2969,7 +2968,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"order" : 2,
+					"order" : 1,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -2978,7 +2977,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"midpoints" : [ 156.5, 681.922034063238016, 343.5, 681.922034063238016 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -2987,7 +2986,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
 					"midpoints" : [ 156.5, 681.922034063238016, 185.0, 681.922034063238016 ],
-					"order" : 3,
+					"order" : 2,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -2995,7 +2994,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
-					"order" : 0,
+					"order" : 3,
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -3122,10 +3121,10 @@
 			"obj-129::obj-5" : [ "live.button[1]", "live.button", 0 ],
 			"obj-129::obj-6" : [ "live.numbox[20]", "live.numbox", 0 ],
 			"obj-131" : [ "live.text[57]", "live.text", 0 ],
-			"obj-139::obj-199" : [ "mcs.vst~", "mcs.vst~", 0 ],
+			"obj-139::obj-199" : [ "vst~[7]", "vst~[7]", 0 ],
 			"obj-139::obj-30" : [ "live.tab[2]", "live.tab", 0 ],
 			"obj-139::obj-7" : [ "live.numbox", "mix", 0 ],
-			"obj-140::obj-199" : [ "vst~", "vst~", 0 ],
+			"obj-140::obj-199" : [ "vst~[10]", "vst~[10]", 0 ],
 			"obj-140::obj-30" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-140::obj-7" : [ "live.numbox[13]", "mix", 0 ],
 			"obj-191" : [ "multichannel-mode", "multichannel-mode", 0 ],
